@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+.Counter{
+  padding-left: 420px;
+  padding-top: 30px;
+}
+.Center {
+  margin: 0 auto;
+  /* width: max-content; */
+  margin-top: 20px;
+}
+.Bold {
+  font-size: large;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
